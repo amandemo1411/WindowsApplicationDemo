@@ -26,6 +26,12 @@ namespace WindowsApplicationDemo
                 MessageBox.Show("Data has been added");
             else
                 MessageBox.Show("Issue while saving data");
+            Console.WriteLine("Hello WOrld!");
+        }
+
+        private void txtName_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
